@@ -8,7 +8,7 @@ const generateProjectImage = (name: string, color: string = "#3b82f6") => {
       <defs>
         <radialGradient id="grad-${name.replace(
           /\s/g,
-          ""
+          "",
         )}" cx="50%" cy="50%" r="50%" fx="80%" fy="20%">
           <stop offset="0%" stop-color="${color}" stop-opacity="0.15"/>
           <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
@@ -16,7 +16,7 @@ const generateProjectImage = (name: string, color: string = "#3b82f6") => {
       </defs>
       <rect width="800" height="450" fill="url(#grad-${name.replace(
         /\s/g,
-        ""
+        "",
       )})"/>
       <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.05em" fill="#ffffff">${name.toUpperCase()}</text>
       <rect x="350" y="245" width="100" height="1" fill="${color}" fill-opacity="0.3"/>
@@ -36,7 +36,7 @@ export const RESUME_DATA: ResumeData = {
   socials: {
     github: "https://github.com/sooobhyadav",
     linkedin: "https://www.linkedin.com/in/sooobhyadav/",
-    email: "shubham@phleebs.tech",
+    email: "sooobhyadav@gmail.com",
     portfolio: "http://shubham.phleebs.tech",
     phone: "+919004617992",
   },
